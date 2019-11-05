@@ -23,14 +23,17 @@ public class Player_Jump : MonoBehaviour {
 
         grounded = Physics2D.OverlapCircle(GroundCheck.position, groundRadius, whatIsGround);
 
-        if(jump && grounded)
+        if (GameControlScript.health > 0)
         {
-            GetComponent<Rigidbody2D>().AddForce(Vector3.up * jumpForce);
-            anim.SetBool("jump", true);
-        }
-        else
-        {
-            anim.SetBool("jump", false);
+            if (jump && grounded)
+            {
+                GetComponent<Rigidbody2D>().AddForce(Vector3.up * jumpForce);
+                anim.SetBool("jump", true);
+            }
+            else
+            {
+                anim.SetBool("jump", false);
+            }
         }
     }
 }
