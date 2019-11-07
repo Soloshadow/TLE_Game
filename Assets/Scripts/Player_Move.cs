@@ -59,6 +59,5 @@ public class Player_Move : MonoBehaviour
 		{
 		GameControlScript.health = 0;
 		}
-
     }
 }
