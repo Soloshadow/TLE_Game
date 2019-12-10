@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class Cloud_Script : MonoBehaviour
 {
-   void OnTriggerEnter2D(Collider2D col)
+   void OnTriggerEnter2D(Collider2D collision)
    {
-      GameControlScript.health -= 1;
-	  Destroy(gameObject);
+       if (collision.gameObject.tag == "Player")
+       {
+           GameControlScript.health -= 1;
+       }
+       Destroy(gameObject);
    }
 }

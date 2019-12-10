@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\thoma\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -7,12 +7,17 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="Big_Cloud.cs" t="Include" />
           <e p="Camera_Follow.cs" t="Include" />
+          <e p="Cloud_Move_Horizontal.cs" t="Include" />
+          <e p="Cloud_Move_Vertical.cs" t="Include" />
           <e p="Cloud_Script.cs" t="Include" />
           <e p="GameControlScript.cs" t="Include" />
           <e p="MenuStart.cs" t="Include" />
-          <e p="Player_Jump.cs" t="Include" />
-          <e p="Player_Move.cs" t="Include" />
+          <e p="Player" t="Include">
+            <e p="Player_Jump.cs" t="Include" />
+            <e p="Player_Move.cs" t="Include" />
+          </e>
           <e p="Restart.cs" t="Include" />
         </e>
       </e>

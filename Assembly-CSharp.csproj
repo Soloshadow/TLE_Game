@@ -57,7 +57,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Big_Cloud.cs" />
     <Compile Include="Assets\Scripts\Camera_Follow.cs" />
+    <Compile Include="Assets\Scripts\Cloud_Move_Horizontal.cs" />
+    <Compile Include="Assets\Scripts\Cloud_Move_Vertical.cs" />
     <Compile Include="Assets\Scripts\Cloud_Script.cs" />
     <Compile Include="Assets\Scripts\GameControlScript.cs" />
     <Compile Include="Assets\Scripts\MenuStart.cs" />
