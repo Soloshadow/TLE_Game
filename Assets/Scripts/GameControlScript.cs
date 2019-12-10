@@ -46,9 +46,18 @@ public class GameControlScript : MonoBehaviour
                 heart2.gameObject.SetActive(false);
                 heart3.gameObject.SetActive(false);
                 gameOver.gameObject.SetActive(true);
-                tryAgain.gameObject.SetActive(true);
+                StartCoroutine(Example());
+                //new WaitForSeconds(5);
+                //tryAgain.gameObject.SetActive(true);
                 //Time.timeScale = 0;
                 break;
         }
+    }
+
+    //This code creates a small delay before showing the replay button
+    IEnumerator Example()
+    {
+        yield return new WaitForSeconds(5);
+        tryAgain.gameObject.SetActive(true);
     }
 }
