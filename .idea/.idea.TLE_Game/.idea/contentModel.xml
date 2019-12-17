@@ -9,7 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="Big_Cloud.cs" t="Include" />
           <e p="Camera_Follow.cs" t="Include" />
-          <e p="Cloud_Move_Horizontal.cs" t="Include" />
+          <e p="Cloud_Move.cs" t="Include" />
           <e p="Cloud_Move_Vertical.cs" t="Include" />
           <e p="Cloud_Script.cs" t="Include" />
           <e p="GameControlScript.cs" t="Include" />
