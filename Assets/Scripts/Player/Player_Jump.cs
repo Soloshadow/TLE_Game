@@ -18,7 +18,7 @@ public class Player_Jump : MonoBehaviour {
 
     //This code makes the player jump when the space key is pressed
     //First check if the player's rigidbody is connected to the ground, if that is the case you can jump
-    void FixedUpdate(){
+    void Update(){
         bool jump = Input.GetButtonDown("Jump");
 
         grounded = Physics2D.OverlapCircle(GroundCheck.position, groundRadius, whatIsGround);

@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Start/StartScene.unity
     guid: 260f2aa5a1d246545ab485cd080d3f72
   - enabled: 1
+<<<<<<< HEAD
+=======
+    path: Assets/Scenes/China_Level/GameScene.unity
+    guid: fdf08ad1298632446b6121b0e9a64179
+  - enabled: 1
+>>>>>>> master
     path: Assets/Scenes/Start/StoryScene.unity
     guid: 5b4b219d9f357b14685e14df745b0f45
   - enabled: 1
