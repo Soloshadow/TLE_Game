@@ -22,22 +22,20 @@ public class LoadNext : MonoBehaviour
         StartCoroutine(LoadNextImage(delay));
 
 
+
     }
 
     // Function to load next sprite into image source after a delay.
     IEnumerator LoadNextImage(float delay)
     {
+        // Loop through Sprite array and load each sprite into the image source
         for (int i = 0; i < scenes.Length; i++)
         {
           
+            // Wait a few seconds before running next statement
             yield return new WaitForSeconds(delay);
             gameObject.GetComponent<Image>().sprite = scenes[i];
 
-            if (i == scenes.Length)
-            {
-                yield return new WaitForSeconds(delay);
-                LoadNextScene();
-            }
         }
     }
 
