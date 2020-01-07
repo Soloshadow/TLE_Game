@@ -54,10 +54,6 @@ public class Player_Move : MonoBehaviour
 			anim.SetBool("death", true);
 			GetComponent<Rigidbody2D>().velocity = new Vector3(0, -10, 0);
 		}
-
-		if (player.transform.position.y < -10)
-		{
-		GameControlScript.health = 0;
-		}
+		
     }
 }

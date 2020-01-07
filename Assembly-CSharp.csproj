@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\Cloud_Move.cs" />
     <Compile Include="Assets\Scripts\Cloud_Script.cs" />
     <Compile Include="Assets\Scripts\GameControlScript.cs" />
+    <Compile Include="Assets\Scripts\Ground.cs" />
     <Compile Include="Assets\Scripts\LoadNext.cs" />
     <Compile Include="Assets\Scripts\MenuStart.cs" />
     <Compile Include="Assets\Scripts\Player\Player_Jump.cs" />
