@@ -1,8 +1,0 @@
-sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/China_Level/IntroScene.unity
-=======
-- path: Assets/Scenes/China_Level/GameScene.unity
->>>>>>> master
-  isLoaded: 1
-  isActive: 1
