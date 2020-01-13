@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/China_Level/IntroScene.unity
-=======
-- path: Assets/Scenes/China_Level/GameScene.unity
->>>>>>> master
+- path: Assets/Scenes/Boat_Level/boat.unity
   isLoaded: 1
   isActive: 1
