@@ -1755,6 +1755,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 527779275}
+  - component: {fileID: 527779276}
   m_Layer: 0
   m_Name: Dialogue
   m_TagString: Untagged
@@ -1776,6 +1777,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &527779276
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527779274}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 89304e7f4c927204aa44c81b49dfd78d, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 114907706891452888, guid: 89304e7f4c927204aa44c81b49dfd78d, type: 2}
+    value: {fileID: 2127593198}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &573495628
 GameObject:
   m_ObjectHideFlags: 0
