@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class WrongChoice : MonoBehaviour
 {
@@ -23,7 +24,7 @@ public class WrongChoice : MonoBehaviour
         {
             
             text[counter].GetComponent<Text>().enabled = true;
-            Debug.Log(text[counter].text);
+            // Debug.Log(text[counter].text);
             counter++;
         }
         else
