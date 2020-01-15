@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Player_Jump : MonoBehaviour {
 
-    public float jumpForce = 300.0f;
+    public float jumpForce = 400.0f;
 
     public Transform GroundCheck;
     public float groundRadius = 0.2f;
