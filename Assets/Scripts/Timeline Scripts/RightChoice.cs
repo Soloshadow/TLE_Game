@@ -16,6 +16,7 @@ public class RightChoice : MonoBehaviour
     // Resume current timeline on mouse click
     void OnMouseDown()
     {
+        
         currentTimeline.Resume();
     }
 }
