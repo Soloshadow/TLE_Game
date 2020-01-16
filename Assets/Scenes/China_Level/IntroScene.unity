@@ -1497,13 +1497,14 @@ GameObject:
   - component: {fileID: 2031032207}
   - component: {fileID: 2031032206}
   - component: {fileID: 2031032205}
+  - component: {fileID: 2031032209}
   m_Layer: 5
   m_Name: Decision time
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2031032205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1584,6 +1585,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &2031032209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031032204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55006c0c52eace745a50fb5078466fb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentTimeline: {fileID: 670443689}
 --- !u!1 &2112762378
 GameObject:
   m_ObjectHideFlags: 0
@@ -1874,7 +1888,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2145587480}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55006c0c52eace745a50fb5078466fb0, type: 3}
+  m_Script: {fileID: 11500000, guid: 0cfa825e23dbd3f4b949e96bf6b6ec99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   currentTimeline: {fileID: 670443689}
