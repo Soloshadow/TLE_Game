@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Boat_Level/boat.unity
     guid: 371752cf1a9a2eb418025eebd1c59c87
+  - enabled: 1
+    path: Assets/Scenes/America_Level/IntroAmerica.unity
+    guid: 3d36d44e67729a942bfb6761b0e74f88
+  - enabled: 1
+    path: Assets/Scenes/Start/StartScene.unity
+    guid: 260f2aa5a1d246545ab485cd080d3f72
   m_configObjects: {}

@@ -1533,7 +1533,7 @@ RectTransform:
   m_GameObject: {fileID: 454147281}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.017741028, y: 0.027829064, z: 0.027829064}
+  m_LocalScale: {x: 0.02724667, y: 0.042739876, z: 0.042739876}
   m_Children: []
   m_Father: {fileID: 1969305058}
   m_RootOrder: 1
@@ -1574,7 +1574,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 2
+  m_Text: "Don't burn so much \nplastic or you would \ninhale plastic"
 --- !u!222 &454147284
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2464,7 +2464,7 @@ RectTransform:
   m_GameObject: {fileID: 632576706}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.017741028, y: 0.027829064, z: 0.027829064}
+  m_LocalScale: {x: 0.030801972, y: 0.04831682, z: 0.04831682}
   m_Children: []
   m_Father: {fileID: 1969305058}
   m_RootOrder: 0
@@ -2505,7 +2505,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: "Reduce C02 by taking \nthe car less."
 --- !u!222 &632576709
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6162,7 +6162,7 @@ RectTransform:
   m_GameObject: {fileID: 1709861351}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.017741028, y: 0.027829064, z: 0.027829064}
+  m_LocalScale: {x: 0.03133243, y: 0.04914891, z: 0.04914891}
   m_Children: []
   m_Father: {fileID: 1969305058}
   m_RootOrder: 2
@@ -6203,7 +6203,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: "Air pollution is \ndamaging our \nozone layer"
 --- !u!222 &1709861354
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7226,7 +7226,7 @@ RectTransform:
   m_GameObject: {fileID: 1966506085}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.017741028, y: 0.027829064, z: 0.027829064}
+  m_LocalScale: {x: 0.025527045, y: 0.040042426, z: 0.040042426}
   m_Children: []
   m_Father: {fileID: 1969305058}
   m_RootOrder: 3
@@ -7243,7 +7243,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1966506085}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
@@ -7267,7 +7267,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 4
+  m_Text: "Acid (not the one you guys \nare thinking about)\nrain is caused\nby air
+    pollution"
 --- !u!222 &1966506088
 CanvasRenderer:
   m_ObjectHideFlags: 0

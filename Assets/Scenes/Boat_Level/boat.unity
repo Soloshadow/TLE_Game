@@ -4995,6 +4995,7 @@ GameObject:
   - component: {fileID: 1254115562}
   - component: {fileID: 1254115561}
   - component: {fileID: 1254115563}
+  - component: {fileID: 1254115564}
   m_Layer: 0
   m_Name: Boot_scene_bg_NEW_HOOKS-12 (4)
   m_TagString: Untagged
@@ -5116,6 +5117,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.803692, y: 65.579994}
   m_EdgeRadius: 0
+--- !u!114 &1254115564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254115559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36a1226546d1019449e9c8abee050cfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextScene: IntroAmerica
 --- !u!1 &1294378354
 GameObject:
   m_ObjectHideFlags: 0
