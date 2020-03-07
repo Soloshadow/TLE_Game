@@ -1533,7 +1533,7 @@ RectTransform:
   m_GameObject: {fileID: 454147281}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.017741028, y: 0.027829064, z: 0.027829064}
+  m_LocalScale: {x: 0.02724667, y: 0.042739876, z: 0.042739876}
   m_Children: []
   m_Father: {fileID: 1969305058}
   m_RootOrder: 1
@@ -1574,7 +1574,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 2
+  m_Text: "Don't burn so much \nplastic or you would \ninhale plastic"
 --- !u!222 &454147284
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1684,7 +1684,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 474653910}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 295.65, y: -1.6, z: 0}
+  m_LocalPosition: {x: 289.8, y: -1.6, z: 0}
   m_LocalScale: {x: 0.621061, y: 0.621061, z: 0.621061}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2002,6 +2002,8 @@ PlayableDirector:
     value: {fileID: 1398349778}
   - key: {fileID: 114604450533062942, guid: 89304e7f4c927204aa44c81b49dfd78d, type: 2}
     value: {fileID: 1906840568}
+  - key: {fileID: 114354830372022640, guid: 89304e7f4c927204aa44c81b49dfd78d, type: 2}
+    value: {fileID: 690757055}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &573495628
@@ -2289,7 +2291,7 @@ Transform:
   m_LocalScale: {x: 2.6545455, y: 2.391336, z: 1.0002744}
   m_Children: []
   m_Father: {fileID: 1418277107}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &629188573
 MonoBehaviour:
@@ -2464,7 +2466,7 @@ RectTransform:
   m_GameObject: {fileID: 632576706}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.017741028, y: 0.027829064, z: 0.027829064}
+  m_LocalScale: {x: 0.030801972, y: 0.04831682, z: 0.04831682}
   m_Children: []
   m_Father: {fileID: 1969305058}
   m_RootOrder: 0
@@ -2505,7 +2507,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: "Reduce C02 by taking \nthe car less."
 --- !u!222 &632576709
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2514,6 +2516,133 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 632576706}
   m_CullTransparentMesh: 0
+--- !u!1 &690757054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 690757056}
+  - component: {fileID: 690757055}
+  m_Layer: 0
+  m_Name: Audio Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!82 &690757055
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690757054}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 472185ca7e3033144a181200a99c5083, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &690757056
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690757054}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.827736, y: 3.8200002, z: -7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &704076850
 GameObject:
   m_ObjectHideFlags: 0
@@ -2877,11 +3006,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 804687158}
   m_LocalRotation: {x: -0.01090805, y: -0, z: -0, w: 0.9999405}
-  m_LocalPosition: {x: 76.8, y: 4.4, z: -2.6}
-  m_LocalScale: {x: 2.6545455, y: 2.391711, z: 1.0004344}
+  m_LocalPosition: {x: 76.2, y: 4.33, z: -2.6}
+  m_LocalScale: {x: 1.9139805, y: 1.9039216, z: 0.92039967}
   m_Children: []
   m_Father: {fileID: 1418277107}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &804687160
 MonoBehaviour:
@@ -2896,7 +3025,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   posDiff: {x: 15, y: 0, z: 0}
-  speed: 0.9
+  speed: 0.6
 --- !u!114 &804687161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4222,7 +4351,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1289131993}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3266, y: -222, z: 75.431786}
+  m_LocalPosition: {x: 3207, y: -222, z: 75.431786}
   m_LocalScale: {x: 53.5144, y: 41.048466, z: 10.7759695}
   m_Children: []
   m_Father: {fileID: 1243530197}
@@ -4353,7 +4482,7 @@ Transform:
   m_LocalScale: {x: 2.6545455, y: 2.3909605, z: 1.0001144}
   m_Children: []
   m_Father: {fileID: 1418277107}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1289624516
 MonoBehaviour:
@@ -5349,7 +5478,6 @@ Transform:
   - {fileID: 1018584141}
   - {fileID: 1533273720}
   - {fileID: 371724628}
-  - {fileID: 2124969381}
   - {fileID: 1289624515}
   - {fileID: 629188572}
   - {fileID: 804687159}
@@ -6162,7 +6290,7 @@ RectTransform:
   m_GameObject: {fileID: 1709861351}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.017741028, y: 0.027829064, z: 0.027829064}
+  m_LocalScale: {x: 0.03133243, y: 0.04914891, z: 0.04914891}
   m_Children: []
   m_Father: {fileID: 1969305058}
   m_RootOrder: 2
@@ -6203,7 +6331,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: "Air pollution is \ndamaging our \nozone layer"
 --- !u!222 &1709861354
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7226,7 +7354,7 @@ RectTransform:
   m_GameObject: {fileID: 1966506085}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.017741028, y: 0.027829064, z: 0.027829064}
+  m_LocalScale: {x: 0.025527045, y: 0.040042426, z: 0.040042426}
   m_Children: []
   m_Father: {fileID: 1969305058}
   m_RootOrder: 3
@@ -7267,7 +7395,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 4
+  m_Text: "Acid (not the one you guys \nare thinking about)\nrain is caused\nby air
+    pollution"
 --- !u!222 &1966506088
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7908,161 +8037,6 @@ Transform:
   m_Father: {fileID: 519420032}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2124969380
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2124969381}
-  - component: {fileID: 2124969385}
-  - component: {fileID: 2124969384}
-  - component: {fileID: 2124969383}
-  - component: {fileID: 2124969382}
-  m_Layer: 0
-  m_Name: cloud2 (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2124969381
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2124969380}
-  m_LocalRotation: {x: -0.01090805, y: -0, z: -0, w: 0.9999405}
-  m_LocalPosition: {x: 59.31, y: 8, z: -0.1}
-  m_LocalScale: {x: 1.3818183, y: 1.2556196, z: 0.99995446}
-  m_Children: []
-  m_Father: {fileID: 1418277107}
-  m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2124969382
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2124969380}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a457349637a63d74483a63cb8938643e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  posDiff: {x: 6, y: 0, z: 0}
-  speed: 0.6
---- !u!60 &2124969383
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2124969380}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.08, y: 1.52}
-    newSize: {x: 2.08, y: 1.52}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.71, y: -0.22}
-      - {x: 0.71999997, y: -0.08}
-      - {x: 0.71999997, y: 0.22999999}
-      - {x: 0.59, y: 0.42}
-      - {x: 0.47, y: 0.44}
-      - {x: 0.26, y: 0.44}
-      - {x: 0.14999999, y: 0.39}
-      - {x: 0.03, y: 0.22999999}
-      - {x: -0.099999994, y: 0.26}
-      - {x: -0.24, y: 0.14}
-      - {x: -0.38, y: 0.089999996}
-      - {x: -0.51, y: -0.03}
-      - {x: -0.71, y: -0.08}
-      - {x: -0.71, y: -0.17}
-      - {x: -0.45, y: -0.35}
-      - {x: -0.39999998, y: -0.32999998}
-      - {x: -0.17, y: -0.38}
-      - {x: -0.08, y: -0.42999998}
-      - {x: 0.14, y: -0.42999998}
-      - {x: 0.25, y: -0.35}
-      - {x: 0.35, y: -0.37}
-      - {x: 0.55, y: -0.39}
---- !u!114 &2124969384
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2124969380}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 787b46df222c1904b8c7b225c4149af1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!212 &2124969385
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2124969380}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 4bd85b39d9e430d4f95805e856371b9c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.08, y: 1.52}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &2127593198
 GameObject:
   m_ObjectHideFlags: 0
