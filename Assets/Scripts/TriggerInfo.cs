@@ -5,42 +5,41 @@ using UnityEngine.UI;
 
 public class TriggerInfo : MonoBehaviour
 {
-    public Collider2D coll;
+   // [SerializeField] Collider2D trigger;
 
     [SerializeField] Image imageTip;
 
     private bool isTriggered = false;
 
-    // Use this for initialization
-    /*
-    void Start()
-    {
-        //Check if the isTrigger option on th Collider2D is set to true or false
-        if (coll.isTrigger)
-        {
-            Debug.Log("player enter");
-            Time.timeScale = 0;
-        }
-       
-    }
-    */
+
 
     private void Update()
     {
-        if (isTriggered && Input.GetKeyUp(KeyCode.Return))
+        if (isTriggered && Input.GetKeyDown(KeyCode.X))
         {
             imageTip.gameObject.SetActive(false);
+            gameObject.SetActive(false);
             Time.timeScale = 1;
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D trigger)
     {
-        if (!isTriggered)
+        // check if the collider tag is equal to player
+        if(trigger.tag == "Player")
         {
-            imageTip.gameObject.SetActive(true);
-            Time.timeScale = 0;
-            isTriggered = true;
+            // check if the info is triggered or not. In this case is true
+            if (!isTriggered)
+            {
+
+                imageTip.gameObject.SetActive(true);
+                Time.timeScale = 0;
+                isTriggered = true;
+            }
+        }
+        else
+        {
+            return;
         }
     }
 }
